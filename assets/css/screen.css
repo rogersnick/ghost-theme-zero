@@ -19,6 +19,10 @@ h6 {
     display: none;
 }
 
+.gh-portal-powered {
+    display:none;
+}
+
 .is-home-cta #gh-main {
     padding: 0;
 }
