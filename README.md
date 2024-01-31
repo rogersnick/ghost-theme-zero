@@ -15,10 +15,10 @@ Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need 
 
 ```bash
 # Install
-yarn
+npm i
 
 # Run build & watch for changes
-yarn dev
+npm run dev
 ```
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
