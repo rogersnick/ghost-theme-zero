@@ -20,7 +20,7 @@ h6 {
 }
 
 .gh-portal-powered {
-    display:none;
+    display:none !important;
 }
 
 .is-home-cta #gh-main {
