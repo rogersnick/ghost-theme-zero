@@ -60,15 +60,15 @@
             },
             "subscribe_homepage_title": {
                 "type": "text",
-                "group": "call_to_action"
+                "group": "brand"
             },
             "subscribe_homepage_description": {
                 "type": "text",
-                "group": "call_to_action"
+                "group": "brand"
             },
             "subscribe_homepage_href": {
                 "type": "text",
-                "group": "call_to_action"
+                "group": "brand"
             }
         }
     },
