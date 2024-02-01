@@ -57,6 +57,18 @@
                 "options": ["Full", "Wide", "Small"],
                 "default": "Small",
                 "group": "post"
+            },
+            "subscribe_homepage_title": {
+                "type": "text",
+                "group": "call_to_action"
+            },
+            "subscribe_homepage_description": {
+                "type": "text",
+                "group": "call_to_action"
+            },
+            "subscribe_homepage_href": {
+                "type": "text",
+                "group": "call_to_action"
             }
         }
     },
