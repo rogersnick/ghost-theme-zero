@@ -1,5 +1,5 @@
 {
-    "name": "bulletin",
+    "name": "theme-zero",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "private": true,
@@ -60,15 +60,15 @@
             },
             "subscribe_homepage_title": {
                 "type": "text",
-                "group": "brand"
+                "group": "homepage"
             },
             "subscribe_homepage_description": {
                 "type": "text",
-                "group": "brand"
+                "group": "homepage"
             },
             "subscribe_homepage_href": {
                 "type": "text",
-                "group": "brand"
+                "group": "homepage"
             }
         }
     },

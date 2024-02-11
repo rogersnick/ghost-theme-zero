@@ -1,17 +1,15 @@
-# Bulletin
+# Theme Zero
 
-Bulletin is a minimal newsletter theme for [Ghost](https://github.com/TryGhost/Ghost). The theme divides your homepage into two sections. The left-hand section is optimized for capturing new email subscribers with a punchy background color. The right-hand section shows an excerpt from the latest issue you’ve published.
+**Branching off from: https://bulletin.ghost.io**
 
-**Demo: https://bulletin.ghost.io**
+## Instructions
 
-# Instructions
-
-1. [Download this theme](https://github.com/TryGhost/Bulletin/archive/main.zip)
+1. npm run zip to generate a zip file
 2. Log into Ghost, and go to the `Design` settings area to upload the zip file
 
-# Development
+## Development
 
-Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Npm](https://npmjs.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
 ```bash
 # Install
@@ -29,10 +27,34 @@ The `zip` Gulp task packages the theme files into `dist/bulletin.zip`, which you
 yarn zip
 ```
 
-# Contribution
+## Running locally with ghost
+
+- Install ghost cli
+
+
+```bash
+npm install ghost-cli@latest -g
+```
+
+Then create an empty directory and run the following in it:
+
+```bash
+ghost install local
+```
+
+The server will automatically start. You can upload a generated zip to see your changes. Use the following commands to control that server:
+
+- `ghost stop` to stop Ghost
+- `ghost start` to start Ghost
+- `ghost log` views logs
+- `ghost ls` to list all running Ghost blogs
+- `ghost help` for help
+
+
+## Contribution
 
 This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
 
-# Copyright & License
+## Copyright & License
 
 Copyright (c) 2013-2023 Ghost Foundation - Released under the [MIT license](LICENSE).
