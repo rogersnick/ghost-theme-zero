@@ -41,7 +41,7 @@
                         {{#foreach posts limit="1"}}
                             <article class="gh-article {{post_class}}">
                                 <header class="gh-article-header">
-                                    <h2 class="gh-article-title">{{title}}</h2>
+                                    <a href="{{url}}"><h2 class="gh-article-title">{{title}}</h2></a>
                                     <span class="gh-article-meta">
                                         By {{primary_author.name}} —
                                         <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
@@ -72,7 +72,7 @@
                             </article>
 
                             <footer class="gh-home-latest-footer">
-                                <a class="gh-btn" href="{{url}}">Read latest issue</a>
+                                <a class="gh-btn" href="{{@site.url}}/page/2/">Read latest issue</a>
                             </footer>
                         {{/foreach}}
                     </section>
