@@ -1,9 +1,9 @@
 {{{html}}}
 
+{{#is "post"}}
 <div class="gh-cta-gradient"></div>
 
 <section class="gh-cta">
-    {{#is "post"}}
         {{#has visibility="paid"}}
         <h4 class="gh-cta-title">This content is for paying subscribers only</h4>
         {{/has}}
@@ -22,5 +22,5 @@
                 <span class="gh-cta-link" href="#/portal/signin" data-portal="signin">Already have an account? Sign in.</span>
             {{/if}}
         </div>
-    {{/is}}
 </section>
+{{/is}}
